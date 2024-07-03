@@ -80774,7 +80774,7 @@ return new A.j0(A.y(s,t.z),A.aZ(9,"",!1,s),B.IL,B.IK,$.as())},
 $S:472}
 A.j0.prototype={}
 A.rL.prototype={
-uG(){var s,r,q,p,o,n,m,l,k,j,i,h="wss://tictactoeserver-production-5e48.up.railway.app",g=null,f="query",e=t.N,d=t.z,c=A.y(e,d)
+uG(){var s,r,q,p,o,n,m,l,k,j,i,h="http://tictactoeserver-production-5e48.up.railway.app",g=null,f="query",e=t.N,d=t.z,c=A.y(e,d)
 c.n(0,"transports",A.b(["websocket"],t.s))
 c.n(0,"autoConnect",!1)
 s=A.dB(h)
@@ -80783,7 +80783,7 @@ q=s.gcz(s)
 p=$.aju.ac(0,r)&&$.aju.h(0,r).d.ac(0,q)
 o=c.h(0,"forceNew")===!0||c.h(0,"force new connection")===!0||!1===c.h(0,"multiplex")||p
 n=A.b7("io")
-if(o){$.axD().aN(B.p,"ignoring socket cache for wss://tictactoeserver-production-5e48.up.railway.app",g,g)
+if(o){$.axD().aN(B.p,"ignoring socket cache for http://tictactoeserver-production-5e48.up.railway.app",g,g)
 n.b=A.ar5(c,h)}else{m=$.aju.h(0,r)
 if(m==null){m=A.ar5(c,h)
 $.aju.n(0,r,m)}n.b=m}if(s.giV(s).length!==0&&c.h(0,f)==null)c.n(0,f,s.giV(s))
